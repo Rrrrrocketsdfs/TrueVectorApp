@@ -1,9 +1,10 @@
-# TrueVectorApp
+# TrueVectorApp GitHub Pages
 
-Public compliance pages for True Vector: Bridge Trainer.
+This directory is the static GitHub Pages payload for:
 
-Published account deletion URL:
+- `https://rrrrrocketsdfs.github.io/TrueVectorApp`
+- `https://rrrrrocketsdfs.github.io/TrueVectorApp/data-deletion/`
 
-https://rrrrrocketsdfs.github.io/TrueVectorApp/account-deletion/
+Publish these files as the root of the GitHub Pages project named `TrueVectorApp`.
 
-This repository is intentionally limited to static GitHub Pages content. It must not contain backend URLs, API credentials, internal project documentation, private infrastructure details, or links to non-public implementation repositories.
+The pages are static HTML, do not require backend routes, and support `?lang=en|ru|fil|hi|id`.

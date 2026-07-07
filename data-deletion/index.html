@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Deletion - True Vector</title>
+    <style>
+        :root {
+            --bg: #f4f7f9;
+            --surface: #ffffff;
+            --text: #10202a;
+            --muted: #526570;
+            --line: #d8e2e8;
+            --accent: #0b7285;
+            --accent-soft: #e4f6f8;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+        }
+        main { max-width: 900px; margin: 0 auto; padding: 32px 18px 56px; }
+        .page { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 28px; }
+        .brand { margin: 0 0 8px; color: var(--accent); font-size: 14px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+        h1 { margin: 0 0 12px; font-size: clamp(28px, 5vw, 40px); line-height: 1.1; }
+        h2 { margin: 28px 0 10px; font-size: 21px; line-height: 1.25; }
+        p, li { color: var(--muted); font-size: 16px; line-height: 1.6; }
+        ul, ol { padding-left: 22px; }
+        a { color: var(--accent); font-weight: 650; }
+        .language-switch { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 22px; }
+        .language-switch a {
+            min-height: 34px;
+            padding: 7px 10px;
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            color: var(--text);
+            text-decoration: none;
+            background: #fbfdfe;
+        }
+        .language-switch a.active { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
+        .notice { margin: 20px 0; padding: 14px 16px; border: 1px solid #b7e1e5; border-radius: 8px; background: var(--accent-soft); color: #174f59; }
+        .footer { margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+        body.localized .locale-section { display: none; }
+        body.localized .locale-section.active { display: block; }
+        @media (max-width: 560px) {
+            main { padding: 16px 10px 36px; }
+            .page { padding: 20px 16px; }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <article class="page">
+        <nav class="language-switch" aria-label="Language">
+            <a href="?lang=en" data-lang-link="en">English</a>
+            <a href="?lang=ru" data-lang-link="ru">Русский</a>
+            <a href="?lang=fil" data-lang-link="fil">Filipino</a>
+            <a href="?lang=hi" data-lang-link="hi">हिन्दी</a>
+            <a href="?lang=id" data-lang-link="id">Indonesia</a>
+        </nav>
+
+        <section class="locale-section" data-lang="en">
+            <p class="brand">True Vector: Marine Radar Simulator &amp; Seafarer Hub</p>
+            <h1>Data Deletion</h1>
+            <p>Effective date: 2026-07-07</p>
+            <p class="notice">Request deletion by emailing <a href="mailto:truevectorapp@protonmail.com">truevectorapp@protonmail.com</a> with your UID/account code or linked Google email. Requests are handled within 30 days.</p>
+            <h2>How to request deletion</h2>
+            <ol>
+                <li>Open the app profile screen and copy your UID/account code. If you linked Google Sign-In, you may use that Google email instead.</li>
+                <li>Email <a href="mailto:truevectorapp@protonmail.com">truevectorapp@protonmail.com</a> with the subject "True Vector data deletion".</li>
+                <li>You may log out and clear local data in the app after sending the request. This only clears the current device; server deletion is completed by the operator.</li>
+                <li>If you have an active Google Play subscription, cancel it separately in Google Play. Account deletion does not automatically cancel billing.</li>
+            </ol>
+            <h2>What we delete</h2>
+            <ul>
+                <li>Account profile fields, avatar and linked identity data stored on the app backend.</li>
+                <li>Training progress, scoring history, session results and synced simulator state tied to the account.</li>
+                <li>Community data tied to the account where removal is technically and legally possible, including posts, comments, messages, union data and reports.</li>
+                <li>Notification tokens and optional analytics/crash identifiers stored by the app backend where applicable.</li>
+            </ul>
+            <h2>What may remain for a limited time</h2>
+            <p>Backups, security logs and fraud-prevention records may remain up to 90 days before normal rotation removes them. Purchase, revenue, legal or abuse-prevention records may be retained when required to protect users, comply with law or handle subscription disputes.</p>
+        </section>
+
+        <section class="locale-section" data-lang="ru">
+            <p class="brand">True Vector: Marine Radar Simulator &amp; Seafarer Hub</p>
+            <h1>Удаление данных</h1>
+            <p>Дата вступления в силу: 2026-07-07</p>
+            <p class="notice">Чтобы запросить удаление, напишите на <a href="mailto:truevectorapp@protonmail.com">truevectorapp@protonmail.com</a> и укажите UID/код аккаунта или привязанный Google email. Запросы обрабатываются в течение 30 дней.</p>
+            <h2>Как запросить удаление</h2>
+            <ol>
+                <li>Откройте профиль в приложении и скопируйте UID/код аккаунта. Если привязан Google Sign-In, можно указать этот Google email.</li>
+                <li>Отправьте письмо на <a href="mailto:truevectorapp@protonmail.com">truevectorapp@protonmail.com</a> с темой "True Vector data deletion".</li>
+                <li>После отправки запроса можно выйти и очистить локальные данные в приложении. Это очищает только текущее устройство; серверное удаление выполняет оператор.</li>
+                <li>Если у вас активна подписка Google Play, отмените её отдельно в Google Play. Удаление аккаунта не отменяет списания автоматически.</li>
+            </ol>
+            <h2>Что мы удаляем</h2>
+            <ul>
+                <li>Поля профиля, аватар и привязанные данные идентификации, которые хранятся на backend приложения.</li>
+                <li>Прогресс обучения, историю очков, результаты сессий и синхронизированное состояние симулятора.</li>
+                <li>Данные сообщества, где удаление технически и юридически возможно: посты, комментарии, сообщения, объединения и жалобы.</li>
+                <li>Токены уведомлений и необязательные аналитические/crash-идентификаторы, если они хранятся backend приложения.</li>
+            </ul>
+            <h2>Что может временно сохраниться</h2>
+            <p>Резервные копии, логи безопасности и антифрод-записи могут оставаться до 90 дней до штатной ротации. Покупки, финансовые, юридические записи или записи предотвращения нарушений могут сохраняться, если это требуется законом, защитой пользователей или разбором споров по подписке.</p>
+        </section>
+
+        <section class="locale-section" data-lang="fil">
+            <p class="brand">True Vector: Marine Radar Simulator &amp; Seafarer Hub</p>
+            <h1>Pag-delete ng Data</h1>
+            <p>Petsa ng bisa: 2026-07-07</p>
+            <p class="notice">Mag-email sa <a href="mailto:truevectorapp@protonmail.com">truevectorapp@protonmail.com</a> gamit ang UID/account code o linked Google email. Hinahandle ang requests sa loob ng 30 araw.</p>
+            <h2>Paano humiling</h2>
+            <ol>
+                <li>Kopyahin ang UID/account code sa profile screen, o gamitin ang linked Google email.</li>
+                <li>Mag-email na may subject na "True Vector data deletion".</li>
+                <li>Pwede kang mag-log out at mag-clear ng local data. Device lang ang nalilinis nito; server deletion ay ginagawa ng operator.</li>
+                <li>I-cancel ang active Google Play subscription nang hiwalay sa Google Play.</li>
+            </ol>
+            <h2>Ano ang dine-delete</h2>
+            <p>Profile fields, avatar, linked identity data, training progress, scores, session results, synced simulator state, applicable community data, notification tokens at optional analytics/crash identifiers.</p>
+            <h2>Maaaring manatili pansamantala</h2>
+            <p>Backups, security logs at fraud-prevention records ay maaaring manatili hanggang 90 araw. Purchase, revenue, legal o abuse-prevention records ay maaaring manatili kung kailangan.</p>
+        </section>
+
+        <section class="locale-section" data-lang="hi">
+            <p class="brand">True Vector: Marine Radar Simulator &amp; Seafarer Hub</p>
+            <h1>डेटा हटाना</h1>
+            <p>प्रभावी तारीख: 2026-07-07</p>
+            <p class="notice">Deletion request के लिए <a href="mailto:truevectorapp@protonmail.com">truevectorapp@protonmail.com</a> पर UID/account code या linked Google email भेजें. Requests 30 दिनों में handle होती हैं.</p>
+            <h2>Request कैसे करें</h2>
+            <ol>
+                <li>Profile screen से UID/account code copy करें, या linked Google email उपयोग करें.</li>
+                <li>"True Vector data deletion" subject के साथ email भेजें.</li>
+                <li>Request भेजने के बाद app में log out और clear local data कर सकते हैं. यह केवल current device साफ करता है; server deletion operator पूरा करता है.</li>
+                <li>Active Google Play subscription को Google Play में अलग से cancel करें.</li>
+            </ol>
+            <h2>क्या delete होता है</h2>
+            <p>Profile fields, avatar, linked identity data, training progress, scores, session results, synced simulator state, applicable community data, notification tokens और optional analytics/crash identifiers.</p>
+            <h2>क्या सीमित समय तक रह सकता है</h2>
+            <p>Backups, security logs और fraud-prevention records 90 दिनों तक रह सकते हैं. Purchase, revenue, legal या abuse-prevention records जरूरत पड़ने पर रखे जा सकते हैं.</p>
+        </section>
+
+        <section class="locale-section" data-lang="id">
+            <p class="brand">True Vector: Marine Radar Simulator &amp; Seafarer Hub</p>
+            <h1>Penghapusan Data</h1>
+            <p>Tanggal berlaku: 2026-07-07</p>
+            <p class="notice">Kirim permintaan ke <a href="mailto:truevectorapp@protonmail.com">truevectorapp@protonmail.com</a> dengan UID/kode akun atau email Google yang terhubung. Permintaan ditangani dalam 30 hari.</p>
+            <h2>Cara meminta penghapusan</h2>
+            <ol>
+                <li>Salin UID/kode akun dari layar profil, atau gunakan email Google yang terhubung.</li>
+                <li>Kirim email dengan subject "True Vector data deletion".</li>
+                <li>Anda dapat log out dan clear local data. Ini hanya membersihkan perangkat saat ini; penghapusan server dilakukan oleh operator.</li>
+                <li>Batalkan langganan Google Play aktif secara terpisah di Google Play.</li>
+            </ol>
+            <h2>Apa yang dihapus</h2>
+            <p>Field profil, avatar, linked identity data, training progress, scores, session results, synced simulator state, community data yang berlaku, notification tokens, dan optional analytics/crash identifiers.</p>
+            <h2>Apa yang mungkin tetap ada sementara</h2>
+            <p>Backups, security logs, dan fraud-prevention records dapat tetap ada sampai 90 hari. Purchase, revenue, legal, atau abuse-prevention records dapat disimpan jika diperlukan.</p>
+        </section>
+
+        <p class="footer">True Vector · <a href="mailto:truevectorapp@protonmail.com">truevectorapp@protonmail.com</a> · <a href="../">Privacy Policy</a></p>
+    </article>
+</main>
+<script>
+    (function () {
+        var supported = ["en", "ru", "fil", "hi", "id"];
+        var requested = new URLSearchParams(window.location.search).get("lang") || "en";
+        var lang = supported.indexOf(requested) >= 0 ? requested : "en";
+        document.documentElement.lang = lang;
+        document.body.classList.add("localized");
+        document.querySelectorAll("[data-lang]").forEach(function (section) {
+            section.classList.toggle("active", section.getAttribute("data-lang") === lang);
+        });
+        document.querySelectorAll("[data-lang-link]").forEach(function (link) {
+            link.classList.toggle("active", link.getAttribute("data-lang-link") === lang);
+        });
+    }());
+</script>
+</body>
+</html>
